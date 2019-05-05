@@ -1,3 +1,5 @@
+# Este es un archivo que viene por defecto cuando se inicializo con el CLI
+
 # Adminpro
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
