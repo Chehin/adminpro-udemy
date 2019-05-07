@@ -5,13 +5,18 @@ import { NgModule } from '@angular/core';
 import { APP_ROUTER } from './app.routes';
 
 // Modulos
-
 import { PagesModule } from './pages/pages.module';
+
+
+// Temporal
+import { FormsModule } from '@angular/forms';
 
 APP_ROUTER
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
+//import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
+//import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 //import { RegisterComponent } from './login/register.component';
 
 
@@ -19,12 +24,15 @@ import { LoginComponent } from './login/login.component';
   declarations: [
     AppComponent,
     LoginComponent
+ //   GraficoDonaComponent
+ //   IncrementadorComponent
   //  RegisterComponent,
   ],
   imports: [
     BrowserModule,
     APP_ROUTER,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,80 @@
-<p>
-  graficas1 works!
-</p>
+<div class="row">
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <div>
+                    <div>
+                        <div style="display: block">
+                            <canvas baseChart [data]="graficos.grafico1.data" [labels]="graficos.grafico1.labels" [chartType]="graficos.grafico1.type">
+                        </canvas>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <div>
+                    <div>
+                        <div style="display: block">
+                            <canvas baseChart [data]="graficos.grafico2.data" [labels]="graficos.grafico2.labels" [chartType]="graficos.grafico2.type"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <div>
+                    <div>
+                        <div style="display: block">
+                            <canvas baseChart [data]="graficos.grafico3.data" [labels]="graficos.grafico3.labels" [chartType]="graficos.grafico3.type"></canvas>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <div>
+                    <div>
+
+                        <div style="display: block">
+                            <canvas baseChart [data]="graficos.grafico4.data" [labels]="graficos.grafico4.labels" [chartType]="graficos.grafico4.type">                    
+                        </canvas>
+                        </div>
+                        <!--<app-grafico-dona [DonasLabel]="doughnutChartLabels"></app-grafico-dona> -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
