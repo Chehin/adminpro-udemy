@@ -18,6 +18,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTES } from './pages.route';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+import { AccoutSettingsComponent } from '../pages/accout-settings/accout-settings.component';
 //import { IncrementadorComponent}
 
 
@@ -29,7 +30,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
     ProgressComponent,
     Graficas1Component,
     IncrementadorComponent,
-    GraficoDonaComponent
+    GraficoDonaComponent,
+    AccoutSettingsComponent
     ],
     exports: [    // Para ser accesados desde fuera de este modulo
     DashboardComponent,

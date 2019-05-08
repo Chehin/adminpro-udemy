@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SettingsService } from './services/service.index';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'adminpro';
+  
+  // Creo el contructor para que se cargue el tema cada vez que accedo o actualizo la pagina
+  constructor (public _ajustes: SettingsService ){  // Injeccion del servicio para que se dispare el constructor de settings.service.ts
+
+  }
 }
